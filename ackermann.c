@@ -12,6 +12,7 @@ size_t ack(size_t m, size_t n) {
 int main() {
   for (size_t i = 0; i < 4; i++)
     for (size_t j = 0; j < 16; j++)
-      printf("Ack for: (%zu, %zu): %zu\n", i, j, ack(i, j));
+    ack(i,j);
+      //printf("Ack for: (%zu, %zu): %zu\n", i, j, ack(i, j));
   return 0;
 }
