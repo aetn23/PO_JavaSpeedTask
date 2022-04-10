@@ -10,7 +10,8 @@ public class Main {
 
     public static void main(String[] args) {
         for (long i = 0; i < 4; i++)
-            for (long j = 0; j < 16; j++)
-                System.out.println("("+i+")" +"(" + j + ")=" + ack(i, j));
+            for (long j = 0; j < 15; j++)
+                ack(i,j);
+                //System.out.println("("+i+")" +"(" + j + ")=" + ack(i, j));
     }
 }
